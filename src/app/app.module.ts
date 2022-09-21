@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {IconsModule} from './icons/icons.module';
-import {LoginModule} from './login/login.module';
+import {CoreModule} from './core/core.module';
+
 // decorateur des modules
 //
 @NgModule({
@@ -13,9 +13,12 @@ import {LoginModule} from './login/login.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, IconsModule, LoginModule
+    AppRoutingModule,
+    CoreModule,
   ],
   providers: [],
   bootstrap: [AppComponent]  // Demarrer l'applicat° avec AppComponent et a un rôle
 })
-export class AppModule { }
+export class AppModule {
+  // accès aux déclarations
+}
