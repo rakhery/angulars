@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+// decorateur Composant
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -19,3 +19,8 @@ export class AppComponent {
   }
 
 }
+/*
+  -Prour créer un composant, il faut le rendre le plus stupide possible pour réutiliser possible
+  - But Maintenabilité du code et DRY
+  - Pour communiquer il faut créer des services
+ */

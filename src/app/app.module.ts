@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+// decorateur des modules
+//
 @NgModule({
   declarations: [
     AppComponent
@@ -13,6 +14,6 @@ import { AppComponent } from './app.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent]  // Demarrer l'applicat° avec AppComponent
 })
 export class AppModule { }
