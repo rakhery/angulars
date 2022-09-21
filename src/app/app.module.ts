@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CoreModule} from './core/core.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 // décorateur des modules
 //
 @NgModule({
@@ -14,6 +15,7 @@ import {CoreModule} from './core/core.module';
     BrowserModule,
     AppRoutingModule,
     CoreModule,
+    // NgbModule, il faut desactiver car on a pas besoin
   ],
   providers: [],
   bootstrap: [AppComponent]  // Demarrer l'applicat° avec AppComponent et a un rôle
