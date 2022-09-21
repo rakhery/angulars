@@ -5,6 +5,17 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
+  // public, private (render view  imposible)
   title = 'crm';
+  // public title : string | undefined; soit string ou non definit
+  // public title : ? et !  pour un raccourci plus rapide; soit string ou non definit
+  // contructeur
+  constructor() {
+    // this.title="crm"; soit initialisat° par l'attribut, soit dans le construteur
+    // C'est pratique qdl'initialisat° est très longe dans l'attribut
+
+  }
+
 }
