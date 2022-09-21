@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {CoreModule} from './core/core.module';
 
-// decorateur des modules
+// décorateur des modules
 //
 @NgModule({
   declarations: [   // Verifier si le composant dans le module
