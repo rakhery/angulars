@@ -1,17 +1,17 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 
 import { OrdersRoutingModule } from './orders-routing.module';
-import { PageListOrdersComponentComponent } from './pages/page-list-orders-component/page-list-orders-component.component';
-import { PageAddOrderComponentComponent } from './pages/page-add-order-component/page-add-order-component.component';
-import { PageEditOrderComponentComponent } from './pages/page-edit-order-component/page-edit-order-component.component';
-
+import { PageAddOrderComponent } from './pages/page-add-order/page-add-order.component';
+import { PageEditOrderComponent } from './pages/page-edit-order/page-edit-order.component';
+import { PageListOrdersComponent } from './pages/page-list-orders/page-list-orders.component';
 
 @NgModule({
-  declarations: [PageListOrdersComponentComponent, PageAddOrderComponentComponent, PageEditOrderComponentComponent],
-  imports: [
-    CommonModule,
-    OrdersRoutingModule
-  ]
+  declarations: [
+    PageListOrdersComponent,
+    PageAddOrderComponent,
+    PageEditOrderComponent,
+  ],
+  imports: [CommonModule, OrdersRoutingModule],
 })
-export class OrdersModule { }
+export class OrdersModule {}

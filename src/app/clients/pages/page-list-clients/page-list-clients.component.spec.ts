@@ -11,9 +11,7 @@ describe('PageListClientsComponent', () => {
       declarations: [ PageListClientsComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PageListClientsComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

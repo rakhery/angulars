@@ -9,7 +9,12 @@ import { PageForgotPasswordComponent } from './pages/page-forgot-password/page-f
 
 
 @NgModule({
-  declarations: [PageSignInComponent, PageSignUpComponent, PageResetPasswordComponent, PageForgotPasswordComponent],
+  declarations: [
+    PageSignInComponent,
+    PageSignUpComponent,
+    PageResetPasswordComponent,
+    PageForgotPasswordComponent
+  ],
   imports: [
     CommonModule,
     LoginRoutingModule

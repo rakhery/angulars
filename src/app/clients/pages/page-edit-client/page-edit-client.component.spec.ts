@@ -11,9 +11,7 @@ describe('PageEditClientComponent', () => {
       declarations: [ PageEditClientComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PageEditClientComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

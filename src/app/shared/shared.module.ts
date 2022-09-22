@@ -6,7 +6,7 @@ import { CommonModule } from '@angular/common';
 @NgModule({
   declarations: [],
   imports: [
-    CommonModule    // charge pr défault les modules nécessaires
+    CommonModule
   ]
 })
 export class SharedModule { }

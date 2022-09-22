@@ -11,9 +11,7 @@ describe('IconCloseComponent', () => {
       declarations: [ IconCloseComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(IconCloseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

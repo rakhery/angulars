@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IconNavComponent } from './icon-nav.component';
+import { Ui2Component } from './ui2.component';
 
-describe('IconNavComponent', () => {
-  let component: IconNavComponent;
-  let fixture: ComponentFixture<IconNavComponent>;
+describe('Ui2Component', () => {
+  let component: Ui2Component;
+  let fixture: ComponentFixture<Ui2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IconNavComponent ]
+      declarations: [ Ui2Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IconNavComponent);
+    fixture = TestBed.createComponent(Ui2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { IconNavComponent } from './icon-nav.component';
+import { PageAddOrderComponent } from './page-add-order.component';
 
-describe('IconNavComponent', () => {
-  let component: IconNavComponent;
-  let fixture: ComponentFixture<IconNavComponent>;
+describe('PageAddOrderComponent', () => {
+  let component: PageAddOrderComponent;
+  let fixture: ComponentFixture<PageAddOrderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ IconNavComponent ]
+      declarations: [ PageAddOrderComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(IconNavComponent);
+    fixture = TestBed.createComponent(PageAddOrderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

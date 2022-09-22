@@ -11,9 +11,7 @@ describe('PageForgotPasswordComponent', () => {
       declarations: [ PageForgotPasswordComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PageForgotPasswordComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

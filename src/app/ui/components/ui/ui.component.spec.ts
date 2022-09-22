@@ -11,9 +11,7 @@ describe('UiComponent', () => {
       declarations: [ UiComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(UiComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

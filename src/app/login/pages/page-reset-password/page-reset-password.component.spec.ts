@@ -11,9 +11,7 @@ describe('PageResetPasswordComponent', () => {
       declarations: [ PageResetPasswordComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PageResetPasswordComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

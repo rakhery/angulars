@@ -11,9 +11,7 @@ describe('PageSignInComponent', () => {
       declarations: [ PageSignInComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PageSignInComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

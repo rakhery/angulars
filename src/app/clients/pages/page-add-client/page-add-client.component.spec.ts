@@ -11,9 +11,7 @@ describe('PageAddClientComponent', () => {
       declarations: [ PageAddClientComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(PageAddClientComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();

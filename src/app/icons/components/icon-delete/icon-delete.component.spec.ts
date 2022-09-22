@@ -11,9 +11,7 @@ describe('IconDeleteComponent', () => {
       declarations: [ IconDeleteComponent ]
     })
     .compileComponents();
-  });
 
-  beforeEach(() => {
     fixture = TestBed.createComponent(IconDeleteComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
