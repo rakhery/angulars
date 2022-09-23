@@ -1,7 +1,15 @@
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+import {PageSignInComponent} from '../login/pages/page-sign-in/page-sign-in.component';
+import {PageAddClientComponent} from './pages/page-add-client/page-add-client.component';
+import {PageEditClientComponent} from './pages/page-edit-client/page-edit-client.component';
+import {PageListClientsComponent} from './pages/page-list-clients/page-list-clients.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'add-client', component:PageAddClientComponent},
+  {path:'edit-Client', component: PageEditClientComponent},
+  {path:'', component:PageListClientsComponent},
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

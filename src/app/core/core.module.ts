@@ -8,15 +8,17 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { NavComponent } from './components/nav/nav.component';
 
-// Chef orcherstre des gestions
 @NgModule({
   declarations: [HeaderComponent, NavComponent, FooterComponent],
-  imports: [
-    CommonModule
+  imports: [CommonModule],
+  exports: [
+    IconsModule,
+    LoginModule,
+    TemplatesModule,
+    UiModule,
+    HeaderComponent,
+    NavComponent,
+    FooterComponent,
   ],
-  exports: [ IconsModule, LoginModule, TemplatesModule, UiModule, HeaderComponent, NavComponent, FooterComponent],
-
 })
-export class CoreModule {
-
-}
+export class CoreModule {}

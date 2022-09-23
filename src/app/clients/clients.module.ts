@@ -8,7 +8,11 @@ import { PageEditClientComponent } from './pages/page-edit-client/page-edit-clie
 
 
 @NgModule({
-  declarations: [PageListClientsComponent, PageAddClientComponent, PageEditClientComponent],
+  declarations: [
+    PageListClientsComponent,
+    PageAddClientComponent,
+    PageEditClientComponent
+  ],
   imports: [
     CommonModule,
     ClientsRoutingModule

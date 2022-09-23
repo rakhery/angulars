@@ -1,25 +1,14 @@
-// importer les classes qu'on a besoin
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {CoreModule} from './core/core.module';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-// décorateur des modules
-//
+import { CoreModule } from './core/core.module';
+
 @NgModule({
-  declarations: [   // Verifier si le composant dans le module
-    AppComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    CoreModule,
-    // NgbModule, il faut desactiver car on a pas besoin
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, CoreModule],
   providers: [],
-  bootstrap: [AppComponent]  // Demarrer l'applicat° avec AppComponent et a un rôle
+  bootstrap: [AppComponent],
 })
-export class AppModule {
-  // accès aux déclarations
-}
+export class AppModule {}
