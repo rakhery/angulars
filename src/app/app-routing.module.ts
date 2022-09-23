@@ -4,8 +4,7 @@ import {PageSignInComponent} from './login/pages/page-sign-in/page-sign-in.compo
 import {PageNotFoundComponent} from './page-not-found/pages/page-not-found/page-not-found.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/sign-in', pathMatch: 'full' },
-  {path:'sign-in', component:PageSignInComponent},
+  { path: '', redirectTo: '/sign-in', pathMatch: 'full' },// Page
   {
     path: 'orders',
     loadChildren: () =>
@@ -17,7 +16,7 @@ const routes: Routes = [
       import('./clients/clients.module').then((m) => m.ClientsModule),
   },
   {
-    path: 'page-not-found',
+    path: '**',
     loadChildren: () =>
       import('./page-not-found/page-not-found.module').then((m) => m.PageNotFoundModule),
   },

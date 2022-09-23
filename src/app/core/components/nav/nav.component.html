@@ -1,1 +1,21 @@
-<p>nav works!</p>
+<div class="sidenav">
+  <button class="dropdown-btn">Login
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">sign-up</a>
+    <a href="#">sign-in</a>
+    <a href="#">reset-password</a>
+    <a href="#">forgot-password</a>
+
+  </div>
+  <button class="dropdown-btn">Clients
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a routerLink="/clients">list-order</a>
+    <a routerLink="/add">add-order</a>
+    <a rou>edit-order</a>
+  </div>
+</div>
+<router-outlet></router-outlet>
