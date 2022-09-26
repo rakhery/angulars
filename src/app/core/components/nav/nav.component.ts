@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Router} from '@angular/router';
-import {VersionService} from '../../services/core.service';
+import {VersionService} from '../../services/version.service';
 
 @Component({
   selector: 'app-nav',
