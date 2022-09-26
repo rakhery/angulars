@@ -11,8 +11,24 @@ export class PageListOrdersComponent implements OnInit {
 
   public collection!:Order[];
   public title: string;
+  public route: string;
+  public label: string;
+  public headers:string[];
+
+
   constructor(private ordersService:OrdersService) {
     this.title="Liste de commandes";
+    this.route="add";
+    this.label="add order";
+    this.headers = [
+      'Type',
+      'Client',
+      'Durée',
+      'Tjm HT',
+      'Total HT',
+      'Total TTC',
+      'Etat',
+    ];
     this.ordersService.collection$.subscribe((data)=>{
       console.log(data);
     })
