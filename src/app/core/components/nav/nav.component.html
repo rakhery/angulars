@@ -1,21 +1,30 @@
 <div class="sidenav">
+  <button type="button" (click)="incrementVersion()" class="btn btn-info">Version+</button>
   <button class="dropdown-btn">Login
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
-    <a routerLink="/sign-up">sign-up</a>
-    <a href="#">sign-in</a>
-    <a href="#">reset-password</a>
-    <a href="#">forgot-password</a>
+    <a (click)="navigateToSignUp()">sign-up</a>
+    <a (click)="navigateToSignIn()">sign-in</a>
+    <a (click)="navigateToReset()">reset</a>
+    <a (click)="navigateToForgot()">forgot</a>
 
   </div>
   <button class="dropdown-btn">Clients
     <i class="fa fa-caret-down"></i>
   </button>
   <div class="dropdown-container">
-    <a routerLink="/clients">list-order</a>
-    <a routerLink="/add">add-order</a>
-    <a rou>edit-order</a>
+    <a routerLink="clients" routerLinkActive="active">list</a>
+    <a routerLink="edit" routerLinkActive="active">edit</a>
+    <a routerLink="add" routerLinkActive="active">add</a>
+  </div>
+  <button class="dropdown-btn">Orders
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a routerLink="list" routerLinkActive="active">list</a>
+    <a routerLink="edit">edit</a>
+    <a routerLink="add">add</a>
   </div>
 </div>
 

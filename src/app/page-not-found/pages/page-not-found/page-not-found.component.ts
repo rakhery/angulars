@@ -8,9 +8,8 @@ import {Router} from '@angular/router';
 })
 export class PageNotFoundComponent implements OnInit {
 
-  constructor(private router: Router) {
-    // @ts-ignore
-    console.log(this.router.getCurrentNavigation().extras.state.source);
+  constructor() {
+
   }
 
   ngOnInit(): void {
